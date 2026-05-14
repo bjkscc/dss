@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Data files (too large for git)
+/data/
+*.arc
+
+# Training outputs
+output/
+*.ckpt
+lightning_logs/
+
+# Datasets & locks
+*.db
+*.npz
+*.lock
+
+# IDE
+.idea/
+.vscode/
